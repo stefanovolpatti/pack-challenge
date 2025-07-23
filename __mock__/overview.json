@@ -1,0 +1,64 @@
+{
+  "activeUsersAccessRate": 37,
+  "resourcesUtilized": 67,
+  "resourcesUploaded": {
+    "count": 1150,
+    "change": "+4.4%"
+  },
+  "completionRate": {
+    "rate": 45,
+    "change": "-10%"
+  },
+  "uniqueAccesses": {
+    "current": 395,
+    "total": 582,
+    "change": "+3%"
+  },
+  "resourcesByCategory": [
+    { "category": "Category 1", "percentage": 60 },
+    { "category": "Category 2", "percentage": 28 },
+    { "category": "Category 3", "percentage": 12 }
+  ],
+  "uploadedContentVsUsage": [
+    { "month": "Jan", "uploaded": 100, "usage": 200 },
+    { "month": "Feb", "uploaded": 200, "usage": 300 },
+    { "month": "Mar", "uploaded": 300, "usage": 400 },
+    { "month": "Apr", "uploaded": 400, "usage": 500 },
+    { "month": "May", "uploaded": 500, "usage": 600 },
+    { "month": "Jun", "uploaded": 600, "usage": 700 },
+    { "month": "Jul", "uploaded": 700, "usage": 800 },
+    { "month": "Aug", "uploaded": 600, "usage": 700 },
+    { "month": "Sep", "uploaded": 500, "usage": 600 },
+    { "month": "Oct", "uploaded": 700, "usage": 800 },
+    { "month": "Nov", "uploaded": 800, "usage": 900 },
+    { "month": "Dec", "uploaded": 1150, "usage": 1000 }
+  ],
+  "mostUsedResourcesLeft": [
+    "How to lead new teams",
+    "How to be more direct",
+    "The secret to giving great feedback"
+  ],
+  "mostUsedResourcesRight": [
+    "Conflict Resolution",
+    "How to stay motivated",
+    "Work like balance"
+  ],
+  "userContentAccess": [
+    {
+      "user": "Jane Doe",
+      "role": "Role",
+      "accessedContent": "Conflict Resolution",
+      "openedOn": "11/11/2025 11:55",
+      "closedOn": "11/11/2025 12:55",
+      "provider": "Pack"
+    },
+    {
+      "user": "Jane Doe",
+      "role": "Role",
+      "accessedContent": "Conflict Resolution",
+      "openedOn": "11/11/2025 11:55",
+      "closedOn": "11/11/2025 12:55",
+      "provider": "Mentor"
+    }
+  ]
+}
