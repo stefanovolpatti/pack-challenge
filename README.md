@@ -1,31 +1,51 @@
-# sv
+# 🚀 Pack Challenge
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A fun and modern SvelteKit project for solving the Pack Challenge!
 
-## Creating a project
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/stefanovolpatti/pack-challenge)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![SvelteKit](https://img.shields.io/badge/SvelteKit-Framework-orange)](https://kit.svelte.dev/)
 
-If you're seeing this, you've probably already done this step. Congrats!
+🌐 **Live Demo:** [https://pack-challenge.vercel.app/](https://pack-challenge.vercel.app/)
+
+---
+
+## 📚 Table of Contents
+
+- [Getting Started](#getting-started)
+- [Developing](#developing)
+- [Building](#building)
+- [Preview](#preview)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## 🏁 Getting Started
+
+Clone the repo and install dependencies:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/stefanovolpatti/pack-challenge
+cd pack-challenge
+npm install # or pnpm install or yarn
 ```
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 👨‍💻 Developing
+
+Start a development server:
 
 ```bash
 npm run dev
-
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
 
-## Building
+---
+
+## 🏗️ Building
 
 To create a production version of your app:
 
@@ -33,6 +53,24 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 🔍 Preview
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+
+For questions or feedback, open an issue or contact [Stefano Volpatti](mailto:stefano@volpatti.dev).
