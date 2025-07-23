@@ -19,18 +19,13 @@
 				on:click={() => (activeTab = 'overview')}
 			/>
 			<Tab label="All" active={activeTab === 'all'} on:click={() => (activeTab = 'all')} />
-
-			{#if activeTab === 'overview'}
-				<slot />
-			{:else}
-				<div class="ml-24 sm:ml-0 sm:flex sm:grow-7 sm:justify-end">
-					<Button on:click={() => (showModal = true)}>Upload</Button>
-				</div>
-			{/if}
 		</div>
 		{#if activeTab === 'overview'}
 			<Overview />
 		{:else}
+			<div class="sm:ml-0 sm:flex sm:grow-7 sm:justify-end">
+				<Button on:click={() => (showModal = true)}>Upload</Button>
+			</div>
 			<Resource bind:showModal />
 		{/if}
 	</div>
